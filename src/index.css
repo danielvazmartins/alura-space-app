@@ -1,8 +1,24 @@
 :root {
-    --Gradiente-fundo: #001634;
+    --cor-gradiente-fundo: #001634;
+    --cor-rosa: #C98CF1;
+}
+
+@font-face {
+    font-family: 'GandhiSans-Regular';
+    src: url('/fonts/GandhiSans-Regular.otf');
+}
+
+@font-face {
+    font-family: 'GandhiSans-Bold';
+    src: url('/fonts/GandhiSans-Bold.otf');
+}
+
+body {
+    font-family: 'GandhiSans-Regular';
 }
 
 * {
     margin: 0;
+    padding: 0;
     color: white;
 }

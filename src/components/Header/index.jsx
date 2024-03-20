@@ -4,6 +4,7 @@ import InputSearch from "../InputSearch"
 const HeaderStyled = styled.header`
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 60px 24px;
 
     img {
